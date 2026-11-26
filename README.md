@@ -1,5 +1,9 @@
 # Morphous
 
+<!-- yarkr:badges:start -->
+[![Indexed on Yarkr](https://api.yarkr.com/functions/v1/api/api/v1/badges/repos/Ameyanagi/morphos/version.svg)](https://yarkr.com/arks/ameyanagi/morphos)
+<!-- yarkr:badges:end -->
+
 Morphous is a static TanStack Start catalog for nature-inspired design systems. Each system starts from an animal, plant, mineral, weather, or landscape motif and ships a transparent motif asset, light and dark design-system boards, recorded prompts, and shadcn/tweakcn-compatible theme exports.
 
 The published site is configured for:
@@ -115,6 +119,38 @@ bun run pages:prepare
 ```
 
 `pages:prepare` creates a static `404.html` fallback from `index.html` so deep links work when served by GitHub Pages.
+
+<!-- yarkr:install:start -->
+## Install with Yarkr
+
+This repo is indexed on [Yarkr](https://yarkr.com/arks/ameyanagi/morphos) as the ark [ameyanagi/morphos](https://yarkr.com/arks/ameyanagi/morphos), so its skills install into Claude Code, Codex, Cursor and other agent harnesses with one command.
+
+### CLI
+
+Install the whole ark, which Yarkr keeps equal to this repo:
+
+```bash
+npx yarkr-cli sync ameyanagi/morphos
+```
+
+Or add individual skills:
+
+```bash
+npx yarkr-cli add skill:ameyanagi/morphos/morphous-catalog
+```
+
+No Node.js? `curl -fsSL https://yarkr.com/install.sh | sh` (macOS, Linux) or `irm https://yarkr.com/install.ps1 | iex` (Windows PowerShell) installs `yarkr` as a standalone binary; then type `yarkr` in place of `npx yarkr-cli`.
+
+### MCP
+
+Connect your agent to the ark over MCP:
+
+```bash
+npx yarkr-cli mcp add ameyanagi/morphos
+```
+
+Or point any MCP client at `https://api.yarkr.com/functions/v1/api/mcp/o/ameyanagi/morphos`.
+<!-- yarkr:install:end -->
 
 ## License
 
